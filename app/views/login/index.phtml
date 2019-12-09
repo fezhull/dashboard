@@ -1,0 +1,30 @@
+
+
+<h2>Got an Account!? log in if YES!</h2>
+
+<?php echo $this->tag->form("login/login"); ?>
+
+    <p>
+        <label for="name">Firstname</label>
+        <?php echo $this->tag->textField("firstname"); ?>
+    </p>
+
+    <p>
+        <label for="name">Lastname</label>
+        <?php echo $this->tag->textField("lastname"); ?>
+    </p>
+
+
+    
+    
+
+    
+    <p>
+        <?php echo $this->tag->submitButton("Login"); ?>
+    </p>
+    
+    <a href="signup">Not Registered? Click here</a>
+
+
+
+</form>

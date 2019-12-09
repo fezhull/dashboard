@@ -1,0 +1,39 @@
+
+<a> Fill in your details bellow!</a>
+
+
+<?php echo $this->tag->form("signup/register"); ?>
+
+    <p>
+        <label for="name">Firstname</label>
+        <?php echo $this->tag->textField("firstname"); ?>
+    </p>
+
+    <p>
+        <label for="name">Lastname</label>
+        <?php echo $this->tag->textField("lastname"); ?>
+    </p>
+
+
+    <p>
+        <label for="text">Password</label>
+        <?php echo $this->tag->textField("password"); ?>
+
+        
+    </p>
+
+
+
+
+    <p>
+        <?php echo $this->tag->submitButton("Register"); ?>
+    </p>
+
+
+
+    <a href="login">Already Registered? Click here to login</a>
+
+
+
+
+</form>
